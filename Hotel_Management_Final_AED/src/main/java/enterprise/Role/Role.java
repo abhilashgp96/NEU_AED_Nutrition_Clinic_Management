@@ -4,37 +4,33 @@
  */
 package enterprise.Role;
 
+import enterprise.Enterprise;
+import enterprise.UserAccount.UserAccount;
+import javax.swing.JPanel;
+
 /**
  *
  * @author Anvita
  */
-public class Role {
+public abstract class Role {
     
     public enum RoleType{
         
-        Accountant("Accountant"),
-        FinanceCashier("FinanceCashier"),
-        FinancialManager("FinancialManager"),
-        Receptionist("Receptionist"),
-        ValetParker("ValetParker"),
-        FrontOfficeManager("FrontOfficeManager"),
-        HRManager("HRManager"),
-        HRAssistant("HRAssistant"),
-        KitchenManager("KitchenManager"),
-        RestaurantManager("RestaurantManager"),
-        Chef("Chef"),
-        ChefAssistants("ChefAssistants"),
-        Waiter("Waiter"),
-        Cashier("Cashier"),
-        SalesManager("SalesManager"),
-        MarketingManager("MarketingManager"),
-        PurchaseManager("PurchaseManager"),
-        CleaningManager("CleaningManager"),
-        SecurityManager("SecurityManager"),
-        MaintenanceManager("MaintenanceManager");
+        Admin("Admin"),
+         Accountant("Accountant"),
+         ValetParker("ValetParker"),
+         FrontOfficeManager("FrontOfficeManager"),
+         HRManager("HRManager"),
+         RestaurantManager("RestaurantManager"),
+         Chef("Chef"),
+         Waiter("Waiter"),
+         Cashier("Cashier"),
+         PurchaseManager("PurchaseManager");
+        
      
         
         private String value;
+        
         private RoleType(String value){
          this.value=value;
         }
@@ -53,6 +49,8 @@ public class Role {
     
     public RoleType type;
     
+     public abstract JPanel createWorkArea(JPanel userProcessContainer,UserAccount account,Enterprise enterprise);
+     
     @Override
     public String toString() {
         return (type != null) ? this.type.getValue() : this.getClass().getName();
