@@ -16,6 +16,7 @@ public abstract class Role {
     
     public enum RoleType{
         
+        Admin("Admin"),
          Accountant("Accountant"),
          ValetParker("ValetParker"),
          FrontOfficeManager("FrontOfficeManager"),
