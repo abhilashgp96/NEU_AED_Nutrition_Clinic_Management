@@ -10,31 +10,25 @@ package business.Enterprise;
  */
 public class Enterprise {
     private String eName;
-    private int eID;
-    private static int eCount=1;
-    
-    
+    private String eId;
+  
     public Enterprise(){
-    
-        eID=eCount;
-        eCount++;
-    
     }
 
     public String geteName() {
         return eName;
     }
 
-    public int geteID() {
-        return eID;
-    }
-
     public void seteName(String eName) {
         this.eName = eName;
     }
 
-    @Override
-    public String toString() {
-        return "Enterprise{" + "eName=" + eName + '}';
+    public String geteId() {
+        return eId;
     }
+
+    public void seteId(String eId) {
+        this.eId = eId;
+    }
+
 }
