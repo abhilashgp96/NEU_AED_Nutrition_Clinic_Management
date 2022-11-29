@@ -6,8 +6,28 @@ package enterprise;
 
 /**
  *
- * @author Dell
+ * @author Anvita
  */
 public class Enterprise {
-    
+      private String eName;
+    private String eId;
+  
+    public Enterprise(){
+    }
+
+    public String geteName() {
+        return eName;
+    }
+
+    public void seteName(String eName) {
+        this.eName = eName;
+    }
+
+    public String geteId() {
+        return eId;
+    }
+
+    public void seteId(String eId) {
+        this.eId = eId;
+    }
 }
