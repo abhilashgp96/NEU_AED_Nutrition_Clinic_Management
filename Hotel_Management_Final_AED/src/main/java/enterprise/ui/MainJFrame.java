@@ -2,9 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package ui;
+package enterprise.ui;
 
-import business.Enterprise.Enterprise;
+import enterprise.Enterprise;
+import enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 
@@ -85,7 +86,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
     private void initLoginScreen() {
 
-        JPanel loginScreen = new LoginScreen(mainWorkArea, );
+        JPanel loginScreen = new LoginScreen(mainWorkArea,enterprise );
         mainWorkArea.add("LoginScreen", loginScreen);
         CardLayout layout = (CardLayout) mainWorkArea.getLayout();
         layout.next(mainWorkArea);
