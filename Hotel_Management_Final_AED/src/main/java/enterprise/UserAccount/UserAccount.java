@@ -4,6 +4,8 @@
  */
 package enterprise.UserAccount;
 
+import enterprise.Role.Role;
+
 /**
  *
  * @author abhilashgp
@@ -12,6 +14,7 @@ public class UserAccount {
     
     private String username;
     private String password;
+    private Role role;
 
     public UserAccount() {
     }
@@ -31,6 +34,16 @@ public class UserAccount {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
+    
+    
 
     @Override
     public String toString() {
