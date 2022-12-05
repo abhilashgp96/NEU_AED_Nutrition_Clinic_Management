@@ -38,9 +38,8 @@ public class OrganizationDirectory {
             organizationList.add(organization);
         } 
         else if (type.getValue().equals(Type.HR.getValue())){
-            organization = new HROrganizationn();
-            organizationList.add(organization);
-            
+            organization = new HROrganization();
+            organizationList.add(organization);            
          } 
         else if (type.getValue().equals(Type.Kitchen.getValue())){
             organization = new KitchenOrganization();
@@ -48,9 +47,13 @@ public class OrganizationDirectory {
         } 
         else if (type.getValue().equals(Type.Restaurant.getValue())){
             organization = new RestaurantOrganization();
+            organizationList.add(organization);       
+        } 
+        else if (type.getValue().equals(Type.Admin.getValue())){
+            organization = new AdminOrganization();
             organizationList.add(organization);
-                
         }
         return organization;
-    }
+    }    
 }
+
