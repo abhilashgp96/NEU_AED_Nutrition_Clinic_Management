@@ -45,6 +45,10 @@ public abstract class Organization {
 //            public Organization createOrganization() {
 //                return new RestaurantOrganization();
 //            };
+        }, Admin("Admin Organization"){
+//            public Organization createOrganization() {
+//                return new RestaurantOrganization();
+//            };
         };
         private String value;
         private Type(String value) {
