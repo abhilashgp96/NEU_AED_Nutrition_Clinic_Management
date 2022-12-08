@@ -4,6 +4,11 @@
  */
 package Business.Role;
 
+import Business.Enterprise.Enterprise;
+import Business.Environment;
+import Business.UserAccount.UserAccount;
+import javax.swing.JPanel;
+
 /**
  *
  * @author Anvita
@@ -32,5 +37,7 @@ public abstract class Role {
     
     
     }
+    public abstract JPanel createWorkArea(JPanel userProcessContainer,UserAccount account,Enterprise enterprise,Environment business);
+    
     
 }
