@@ -45,6 +45,7 @@ public class NutritionistWorkAreaJPanel extends javax.swing.JPanel {
         this.enterprise=enterprise;
         this.system=system;
         this.network=network;
+        network();
     }
 
     public void network(){

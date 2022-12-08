@@ -16,6 +16,7 @@ import Business.UserAccount.UserAccount;
 import Business.WorkQueue.CateringWorkRequest;
 import Business.WorkQueue.NutritionistWorkRequest;
 import Business.WorkQueue.WorkRequest;
+import java.awt.CardLayout;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -54,7 +55,7 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         this.userProcessContainer = userProcessContainer;
         this.userAccount = account;
         this.enterprise=enterprise;
-        this.nOrg= nOrg;
+        this.nOrg= norg;
         this.network = network;
         this.system = system;
         
@@ -141,11 +142,6 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
 
         sexcomboBox.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
         sexcomboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "male", "female", "prefer not to say" }));
-        sexcomboBox.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                sexcomboBoxActionPerformed(evt);
-            }
-        });
         add(sexcomboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 240, 200, -1));
 
         prognosiscomboBox.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
@@ -188,6 +184,11 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         bakBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         bakBtn.setForeground(new java.awt.Color(255, 255, 255));
         bakBtn.setText("Back");
+        bakBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bakBtnActionPerformed(evt);
+            }
+        });
         add(bakBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(9, 649, 110, 30));
 
         prescriptionJTable.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
@@ -305,13 +306,7 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
             dishCombobox.setSelectedIndex(0);
             
             
-        }
-        
-                
-                
-                
-        
-        
+        }     
     }//GEN-LAST:event_saveBtnActionPerformed
 
     private void dishComboboxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dishComboboxActionPerformed
@@ -322,9 +317,14 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_prognosiscomboBoxActionPerformed
 
-    private void sexcomboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sexcomboBoxActionPerformed
+    private void bakBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bakBtnActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_sexcomboBoxActionPerformed
+        
+        userProcessContainer.remove(this);
+        log.debug("returning to Nutritionist work area");
+        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+        layout.previous(userProcessContainer);
+    }//GEN-LAST:event_bakBtnActionPerformed
 
 public void saveRecord(String network,String disease,String medicine){
     try{

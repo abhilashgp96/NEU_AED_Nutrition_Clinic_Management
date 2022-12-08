@@ -16,7 +16,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author vgout
+ * @author abhilashgp
  */
 public class AdminWorkAreaJpanel extends javax.swing.JPanel {
     

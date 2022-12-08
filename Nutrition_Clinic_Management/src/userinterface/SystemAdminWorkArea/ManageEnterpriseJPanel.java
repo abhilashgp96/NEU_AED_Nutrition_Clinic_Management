@@ -17,7 +17,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author kasai
+ * @author abhilashgp
  */
 public class ManageEnterpriseJPanel extends javax.swing.JPanel {
 
