@@ -9,5 +9,6 @@ package Business.Ingredient;
  * @author soumya
  */
 public class Ingredient {
+    private String ingName;
     
 }
