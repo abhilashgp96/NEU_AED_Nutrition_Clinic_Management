@@ -13,11 +13,11 @@ import java.util.ArrayList;
 public abstract class Organization {
     
     private String orgName;
-    private WorkQueue workQueue;
-    private EmployeeDirectory empDirectory;
-    private UserAccountDirectory userAccountDirectory;
     private int orgID;
+    private WorkQueue workQueue;
     private static int counter=0;
+    private UserAccountDirectory userAccountDirectory;
+    private EmployeeDirectory empDirectory;
     
     public enum Type{
         Admin("Admin Organization"), Nutritionist("Nutritionist Organization"), Lab("FDA Lab Organization"), Caterer("Caterer Organization"), DishFood("Food Supplier Organization"), Ingredient("Ingredient supplier Organization");
@@ -32,13 +32,51 @@ public abstract class Organization {
     
     public Organization(String name) {
         this.orgName = name;
-        workQueue = new WorkQueue();
-        empDirectory = new EmployeeDirectory();
-        userAccountDirectory = new UserAccountDirectory();
         orgID = counter;
+        workQueue = new WorkQueue();
+        userAccountDirectory = new UserAccountDirectory();
+        empDirectory = new EmployeeDirectory();
+        
         ++counter;
     }
     
     public abstract ArrayList<Role> getSupportedRole();
+    
+    public int getOrgID() {
+        return orgID;
+    }
+    
+    public UserAccountDirectory getUserAccountDirectory() {
+        return userAccountDirectory;
+    }
+    
+
+    public EmployeeDirectory getEmpDirectory() {
+        return empDirectory;
+    }
+
+    public String getOrgName() {
+        return orgName;
+    }
+
+    public void setOrgName(String orgName) {
+        this.orgName = orgName;
+    }
+
+    public WorkQueue getWorkQueue() {
+        return workQueue;
+    }
+
+    public void setWorkQueue(WorkQueue workQueue) {
+        this.workQueue = workQueue;
+    }
+    
+    
+    
+    
+    @Override
+    public String toString() {
+        return orgName;
+    }
     
 }
