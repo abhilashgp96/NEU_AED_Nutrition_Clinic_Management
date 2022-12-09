@@ -131,7 +131,10 @@ public class FoodIngridient {
         this.marketSellingPrice = marketSellingPrice;
     }
     
-    
+    @Override
+     public String toString(){
+       return this.foogIngridientName;
+        } 
     
     
 }
