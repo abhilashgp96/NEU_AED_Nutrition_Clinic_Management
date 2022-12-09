@@ -116,11 +116,11 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
 
         prognosisLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         prognosisLbl.setText("Deficient In");
-        add(prognosisLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 300, 130, -1));
+        add(prognosisLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 300, 150, -1));
 
         dishLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         dishLbl.setText("Suggested Dish");
-        add(dishLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 300, -1, -1));
+        add(dishLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, -1, -1));
 
         TimesLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         TimesLbl.setText("Times");
@@ -145,7 +145,7 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         add(sexcomboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 240, 200, -1));
 
         prognosiscomboBox.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
-        prognosiscomboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--please select--", "Spinach salad", "Fish curry", "Egg yolk sandwiches", "Classic Egg salad", "Broccoli Carrot Rice", "Mashed Potato salad", "DryFruits and nuts smoothie bowl" }));
+        prognosiscomboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--please select--", "Iron Deficiency", "Iodine Deficiency", "Vitamin D Deficiency", "Vitamin B12 Deficiency", "Calcium Deficiency", "Vitamin A Deficiency", "Magnesium Deficiency", " " }));
         prognosiscomboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 prognosiscomboBoxActionPerformed(evt);
@@ -154,7 +154,7 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         add(prognosiscomboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 300, 200, -1));
 
         dishCombobox.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
-        dishCombobox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--please select--", "Iron Deficiency", "Iodine Deficiency", "Vitamin D Deficiency", "Vitamin B12 Deficiency", "Calcium Deficiency", "Vitamin A Deficiency", "Magnesium Deficiency", " ", " " }));
+        dishCombobox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--please select--", "Spinach salad", "Fish curry", "Egg yolk sandwiches", "Classic Egg salad", "Broccoli Carrot Rice", "Mashed Potato salad", "DryFruits and nuts smoothie bowl", " ", " " }));
         dishCombobox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dishComboboxActionPerformed(evt);

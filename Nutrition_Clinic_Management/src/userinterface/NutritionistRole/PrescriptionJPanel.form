@@ -84,7 +84,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="90" y="300" width="130" height="-1"/>
+          <AbsoluteConstraints x="490" y="300" width="150" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -97,7 +97,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="300" width="-1" height="-1"/>
+          <AbsoluteConstraints x="30" y="300" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -192,15 +192,16 @@
           <Font name="Nirmala UI" size="18" style="0"/>
         </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="8">
+          <StringArray count="9">
             <StringItem index="0" value="--please select--"/>
-            <StringItem index="1" value="Spinach salad"/>
-            <StringItem index="2" value="Fish curry"/>
-            <StringItem index="3" value="Egg yolk sandwiches"/>
-            <StringItem index="4" value="Classic Egg salad"/>
-            <StringItem index="5" value="Broccoli Carrot Rice"/>
-            <StringItem index="6" value="Mashed Potato salad"/>
-            <StringItem index="7" value="DryFruits and nuts smoothie bowl"/>
+            <StringItem index="1" value="Iron Deficiency"/>
+            <StringItem index="2" value="Iodine Deficiency"/>
+            <StringItem index="3" value="Vitamin D Deficiency"/>
+            <StringItem index="4" value="Vitamin B12 Deficiency"/>
+            <StringItem index="5" value="Calcium Deficiency"/>
+            <StringItem index="6" value="Vitamin A Deficiency"/>
+            <StringItem index="7" value="Magnesium Deficiency"/>
+            <StringItem index="8" value=" "/>
           </StringArray>
         </Property>
       </Properties>
@@ -224,13 +225,13 @@
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="10">
             <StringItem index="0" value="--please select--"/>
-            <StringItem index="1" value="Iron Deficiency"/>
-            <StringItem index="2" value="Iodine Deficiency"/>
-            <StringItem index="3" value="Vitamin D Deficiency"/>
-            <StringItem index="4" value="Vitamin B12 Deficiency"/>
-            <StringItem index="5" value="Calcium Deficiency"/>
-            <StringItem index="6" value="Vitamin A Deficiency"/>
-            <StringItem index="7" value="Magnesium Deficiency"/>
+            <StringItem index="1" value="Spinach salad"/>
+            <StringItem index="2" value="Fish curry"/>
+            <StringItem index="3" value="Egg yolk sandwiches"/>
+            <StringItem index="4" value="Classic Egg salad"/>
+            <StringItem index="5" value="Broccoli Carrot Rice"/>
+            <StringItem index="6" value="Mashed Potato salad"/>
+            <StringItem index="7" value="DryFruits and nuts smoothie bowl"/>
             <StringItem index="8" value=" "/>
             <StringItem index="9" value=" "/>
           </StringArray>
