@@ -11,4 +11,15 @@ package Business.Ingredient;
 public class Ingredient {
     private String ingName;
     
+    
+    public String getIngName() {
+        return ingName;
+    }
+    
+    
+    public void setIngName(String ingName) {
+        this.ingName = ingName;
+    }
+    
+    
 }
