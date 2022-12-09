@@ -30,4 +30,14 @@ public class IngredientDirectory {
         this.ingLst = ingLst;
     }
     
+    
+    public Ingredient addNewIngLst()
+   {
+       Ingredient c = new Ingredient();
+       ingLst.add(c);
+       return c;
+       
+   }
+    
+    
 }
