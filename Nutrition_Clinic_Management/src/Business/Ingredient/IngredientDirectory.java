@@ -4,10 +4,30 @@
  */
 package Business.Ingredient;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author soumya
  */
 public class IngredientDirectory {
+    
+    private ArrayList<Ingredient> ingLst;
+    
+    public IngredientDirectory() {
+        
+        this.ingLst = new ArrayList<Ingredient>();
+    }
+    
+    public ArrayList<Ingredient> getIngLst() {
+        
+        return ingLst;
+        
+    }
+    
+    public void setIngLst(ArrayList<Ingredient> ingLst) {
+        
+        this.ingLst = ingLst;
+    }
     
 }
