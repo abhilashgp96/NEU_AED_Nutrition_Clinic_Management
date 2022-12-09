@@ -10,9 +10,9 @@ import java.util.Date;
  *
  * @author soumya
  */
-public class FoodIngridient {
+public class Ingridient {
     
-    private String foogIngridientName;
+    private String ingriName;
     
     private Date expirationDate;
     private String CateringCategory;
@@ -27,12 +27,12 @@ public class FoodIngridient {
     private double retailPurchasePrice;
     private double marketSellingPrice;
 
-    public String getFoogIngridientName() {
-        return foogIngridientName;
+    public String getIngriName() {
+        return ingriName;
     }
 
-    public void setFoogIngridientName(String foogIngridientName) {
-        this.foogIngridientName = foogIngridientName;
+    public void setIngriName(String ingriName) {
+        this.ingriName = ingriName;
     }
 
     public Date getExpirationDate() {
@@ -130,10 +130,12 @@ public class FoodIngridient {
     public void setMarketSellingPrice(double marketSellingPrice) {
         this.marketSellingPrice = marketSellingPrice;
     }
+
+    
     
     @Override
      public String toString(){
-       return this.foogIngridientName;
+       return this.ingriName;
         } 
     
     
