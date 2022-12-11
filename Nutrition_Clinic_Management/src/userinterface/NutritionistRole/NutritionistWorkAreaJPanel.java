@@ -63,6 +63,7 @@ public class NutritionistWorkAreaJPanel extends javax.swing.JPanel {
         Nutritionistbl = new javax.swing.JLabel();
         PrescriptionBtn = new javax.swing.JButton();
         labTestBtn = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(204, 204, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -80,7 +81,7 @@ public class NutritionistWorkAreaJPanel extends javax.swing.JPanel {
                 PrescriptionBtnActionPerformed(evt);
             }
         });
-        add(PrescriptionBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, 260, 90));
+        add(PrescriptionBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 400, 260, 90));
 
         labTestBtn.setBackground(new java.awt.Color(0, 0, 0));
         labTestBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
@@ -91,7 +92,10 @@ public class NutritionistWorkAreaJPanel extends javax.swing.JPanel {
                 labTestBtnActionPerformed(evt);
             }
         });
-        add(labTestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 190, 260, 90));
+        add(labTestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 400, 260, 90));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/nutritionist.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 100, 340, 290));
     }// </editor-fold>//GEN-END:initComponents
 
     private void PrescriptionBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PrescriptionBtnActionPerformed
@@ -114,6 +118,7 @@ public class NutritionistWorkAreaJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Nutritionistbl;
     private javax.swing.JButton PrescriptionBtn;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JButton labTestBtn;
     // End of variables declaration//GEN-END:variables
 }
