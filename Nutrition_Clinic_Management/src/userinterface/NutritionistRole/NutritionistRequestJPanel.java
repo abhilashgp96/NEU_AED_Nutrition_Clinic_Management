@@ -397,7 +397,7 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
     private javax.swing.JButton viewResultsbtn;
     // End of variables declaration//GEN-END:variables
 
-    private void populateRequestTable() {
+    public void populateRequestTable() {
         
        DefaultTableModel model = (DefaultTableModel)nutritionistRequestTbl.getModel();
        model.setRowCount(0);
