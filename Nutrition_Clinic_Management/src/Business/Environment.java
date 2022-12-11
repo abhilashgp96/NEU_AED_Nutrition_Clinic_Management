@@ -70,7 +70,7 @@ public class Environment extends Organization{
         return true;
     }
     
-    public DishDirectory getDrugLst() {
+    public DishDirectory getDishLst() {
         return drugLst;
     }
 

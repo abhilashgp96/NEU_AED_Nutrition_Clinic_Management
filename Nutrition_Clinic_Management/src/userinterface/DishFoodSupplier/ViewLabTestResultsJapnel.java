@@ -80,7 +80,7 @@ public class ViewLabTestResultsJapnel extends javax.swing.JPanel {
         jLabel2.setText("Patient Name :");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, 200, 30));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-lab-coat-100.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-lab-coat-100.png"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 50, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

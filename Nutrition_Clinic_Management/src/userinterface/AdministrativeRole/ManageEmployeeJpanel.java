@@ -151,7 +151,7 @@ public class ManageEmployeeJpanel extends javax.swing.JPanel {
         });
         add(addJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 690, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-name-tag-100.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-name-tag-100.png"))); // NOI18N
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 490, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

@@ -46,7 +46,7 @@ public class ViewIngredientDetailsJPanel extends javax.swing.JPanel {
             
         serialNumTextField.setText(String.valueOf(mi.getSerialNumber()));
         availQuantityTextField.setText(String.valueOf(mi.getAvailableQuantity()));
-        ingredientNameTextField.setText(mi.getIngName());
+        ingredientNameTextField.setText(mi.getIngriName());
         saveButton.setEnabled(false);
     }
 
@@ -169,7 +169,7 @@ public class ViewIngredientDetailsJPanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null, "chemical name is empty");
             return;
         }
-        di.setChemName(ingredientNameTextField.getText());
+        di.setIngriName(ingredientNameTextField.getText());
         
         try{
         int availableQuantity= Integer.parseInt(availQuantityTextField.getText());

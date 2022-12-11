@@ -85,24 +85,29 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         workRequestJTable = new javax.swing.JTable();
         processBtn = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(204, 204, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         LabLbl.setFont(new java.awt.Font("Nirmala UI", 1, 36)); // NOI18N
         LabLbl.setText("Lab Work Area");
-        add(LabLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 70, -1, -1));
+        add(LabLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 80, -1, -1));
 
-        assignBtn.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
+        assignBtn.setBackground(new java.awt.Color(0, 0, 0));
+        assignBtn.setFont(new java.awt.Font("Nirmala UI", 1, 18)); // NOI18N
+        assignBtn.setForeground(new java.awt.Color(255, 255, 255));
         assignBtn.setText("Assign to me");
         assignBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 assignBtnActionPerformed(evt);
             }
         });
-        add(assignBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 310, 140, 40));
+        add(assignBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 310, 160, 40));
 
-        refreshJButton.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
+        refreshJButton.setBackground(new java.awt.Color(0, 0, 0));
+        refreshJButton.setFont(new java.awt.Font("Nirmala UI", 1, 18)); // NOI18N
+        refreshJButton.setForeground(new java.awt.Color(255, 255, 255));
         refreshJButton.setText("Refresh");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -134,14 +139,19 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, 750, 250));
 
-        processBtn.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
-        processBtn.setText("process");
+        processBtn.setBackground(new java.awt.Color(0, 0, 0));
+        processBtn.setFont(new java.awt.Font("Nirmala UI", 1, 18)); // NOI18N
+        processBtn.setForeground(new java.awt.Color(255, 255, 255));
+        processBtn.setText("Process");
         processBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 processBtnActionPerformed(evt);
             }
         });
         add(processBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 430, 140, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-lab-coat-100.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 60, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void assignBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assignBtnActionPerformed
@@ -298,6 +308,7 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel LabLbl;
     private javax.swing.JButton assignBtn;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton processBtn;
     private javax.swing.JButton refreshJButton;

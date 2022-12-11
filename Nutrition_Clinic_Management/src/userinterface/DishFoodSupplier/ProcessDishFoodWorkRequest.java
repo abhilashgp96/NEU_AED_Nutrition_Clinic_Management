@@ -65,7 +65,7 @@ public class ProcessDishFoodWorkRequest extends javax.swing.JPanel {
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(167, 212, 375, 41));
 
         updateBtn.setBackground(new java.awt.Color(0, 0, 0));
-        updateBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        updateBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         updateBtn.setForeground(new java.awt.Color(255, 255, 255));
         updateBtn.setText("UPDATE STATUS ");
         updateBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -76,7 +76,7 @@ public class ProcessDishFoodWorkRequest extends javax.swing.JPanel {
         add(updateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(548, 345, 261, 50));
 
         backBtn.setBackground(new java.awt.Color(0, 0, 0));
-        backBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("BACK");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -92,7 +92,7 @@ public class ProcessDishFoodWorkRequest extends javax.swing.JPanel {
         add(dateTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(548, 212, 261, 41));
         add(dateFld, new org.netbeans.lib.awtextra.AbsoluteConstraints(875, 212, 156, 41));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-cute-pumpkin-100.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-cute-pumpkin-100.png"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 50, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
