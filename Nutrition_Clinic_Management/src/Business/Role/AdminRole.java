@@ -6,8 +6,11 @@ package Business.Role;
 
 import Business.Enterprise.Enterprise;
 import Business.Environment;
+import Business.Network.Network;
+import Business.Organization.Organization;
 import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
+import userinterface.AdministrativeRole.AdminWorkAreaJpanel;
 
 /**
  *
@@ -15,10 +18,10 @@ import javax.swing.JPanel;
  */
 public class AdminRole extends Role{
     
+  
     @Override
-    public JPanel createWorkArea(JPanel userProcessContainer,UserAccount account,Enterprise enterprise,Environment business){
-    
-    return new AdminWorkAreaJPanel(userProcessContainer,enterprise);
+    public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account,Organization organization, Enterprise enterprise, Environment business,Network network) {
+      return new AdminWorkAreaJpanel(userProcessContainer,enterprise);//  throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
     

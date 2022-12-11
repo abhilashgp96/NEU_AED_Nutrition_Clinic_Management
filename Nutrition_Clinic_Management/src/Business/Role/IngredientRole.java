@@ -6,8 +6,12 @@ package Business.Role;
 
 import Business.Enterprise.Enterprise;
 import Business.Environment;
+import Business.Network.Network;
+import Business.Organization.IngredientOrganization;
+import Business.Organization.Organization;
 import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
+import userinterface.IngredientRole.IngredientWorkArea;
 
 /**
  *
@@ -16,8 +20,8 @@ import javax.swing.JPanel;
 public class IngredientRole extends Role{
     
     @Override
-    public JPanel createWorkArea(JPanel userProcessContainer,UserAccount account,Enterprise enterprise,Environment business){
-        return null;
+    public JPanel createWorkArea(JPanel userProcessContainer,UserAccount account,Organization organization,Enterprise enterprise,Environment business,Network network){
+        return new IngredientWorkArea(userProcessContainer,account,(IngredientOrganization)organization,enterprise,business,network);
     }
     
 }
