@@ -4,6 +4,10 @@
  */
 package Business.Organization;
 
+import Business.Employee.EmployeeDirectory;
+import Business.Role.Role;
+import Business.UserAccount.UserAccountDirectory;
+import Business.WorkQueue.WorkQueue;
 import java.util.ArrayList;
 
 /**
@@ -70,10 +74,7 @@ public abstract class Organization {
     public void setWorkQueue(WorkQueue workQueue) {
         this.workQueue = workQueue;
     }
-    
-    
-    
-    
+
     @Override
     public String toString() {
         return orgName;
