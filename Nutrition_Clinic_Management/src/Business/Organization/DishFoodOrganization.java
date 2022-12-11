@@ -4,6 +4,9 @@
  */
 package Business.Organization;
 
+import Business.IngredientCatalogue.Ingridient;
+import Business.Role.DishFoodSupplierRole;
+import Business.Role.Role;
 import java.util.ArrayList;
 
 /**
@@ -46,7 +49,5 @@ public class DishFoodOrganization extends Organization{
     }
     
    
-    
-}
     
 }
