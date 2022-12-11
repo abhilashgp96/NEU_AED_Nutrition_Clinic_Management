@@ -5,6 +5,7 @@
 package Business.Dish;
 
 import Business.Allergin.AllerginRecord;
+import Business.Ingredient.IngredientDirectory;
 
 /**
  *
@@ -15,9 +16,11 @@ public class Dish {
     private String DishFoodName;
     private AllerginRecord allergenRecord;
     private static int counter=0;
+    private IngredientDirectory ingredientLst;
     
     public Dish(){
         allergenRecord = new AllerginRecord();
+        ingredientLst = new IngredientDirectory();
         dishFoodId= counter;
         ++counter;
     }
@@ -42,6 +45,15 @@ public class Dish {
     public void setDishFoodName(String DishFoodName) {
         this.DishFoodName = DishFoodName;
     }
+
+    public IngredientDirectory getIngredientLst() {
+        return ingredientLst;
+    }
+
+    public void setIngredientLst(IngredientDirectory ingredientLst) {
+        this.ingredientLst = ingredientLst;
+    }
+    
 
     @Override
     public String toString() {

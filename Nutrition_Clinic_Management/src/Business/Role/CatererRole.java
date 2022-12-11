@@ -6,8 +6,12 @@ package Business.Role;
 
 import Business.Enterprise.Enterprise;
 import Business.Environment;
+import Business.Network.Network;
+import Business.Organization.CateringOrganization;
+import Business.Organization.Organization;
 import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
+import userinterface.CateringRole.CateringWorkArea;
 
 /**
  *
@@ -16,8 +20,8 @@ import javax.swing.JPanel;
 public class CatererRole extends Role{
     
     @Override
-    public JPanel createWorkArea(JPanel userProcessContainer,UserAccount account,Enterprise enterprise,Environment business){
-     return null;
+    public JPanel createWorkArea(JPanel userProcessContainer,UserAccount account,Organization organization,Enterprise enterprise,Environment business,Network network){
+     return new CateringWorkArea(userProcessContainer,account,(CateringOrganization)organization,enterprise,network);
     }
     
 }
