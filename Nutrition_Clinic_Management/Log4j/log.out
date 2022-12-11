@@ -1,0 +1,212 @@
+Entering Main JFrame	userinterface.MainJFrame
+Logged in User RoleBusiness.Role.SystemAdminRole
+network createduserinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Network created by sysadminuserinterface.SystemAdminWorkArea.ManageNetworkJPanel
+Network name created:	Boston
+enterpirse created by useruserinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Enterpise name: 	BfoodsCurrent Network: 	Boston	userinterface.SystemAdminWorkArea.ManageEnterpriseJPanel
+Enterpise name: 	bcatCurrent Network: 	Boston	userinterface.SystemAdminWorkArea.ManageEnterpriseJPanel
+Enterpise name: 	foodmCurrent Network: 	Boston	userinterface.SystemAdminWorkArea.ManageEnterpriseJPanel
+Enterpise name: 	hayCurrent Network: 	Boston	userinterface.SystemAdminWorkArea.ManageEnterpriseJPanel
+enterprise admin addeduserinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	userinterface.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+user name is: 	bfoodsrnterprise name is: 	bfoodsnetwork name is	Boston	userinterface.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+enterprise admin addeduserinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	userinterface.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+user name is: 	bcatrnterprise name is: 	bcatnetwork name is	Boston	userinterface.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	userinterface.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+user name is: 	foodmrnterprise name is: 	foodmnetwork name is	Boston	userinterface.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	userinterface.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+user name is: 	hayrnterprise name is: 	haynetwork name is	Boston	userinterface.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+enterprise admin addeduserinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Logged in User RoleBusiness.Role.AdminRole
+Organization created by enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Organization added by enterprise adminNutritionist
+Organization added by enterprise adminLab
+Employee added by enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	anviin following Organization 	Nutritionist Organization	userinterface.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding following employee 	lisain following Organization 	FDA Lab Organization	userinterface.AdministrativeRole.ManageEmployeeJpanel
+Users added by Enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	anviRoleBusiness.Role.NutritionistRoleIn OrganizationNutritionist Organization	userinterface.AdministrativeRole.ManageUserAccountJpanel
+Enterprise admin creating user with name 	lisaRoleBusiness.Role.LabAssistantRoleIn OrganizationFDA Lab Organization	userinterface.AdministrativeRole.ManageUserAccountJpanel
+Logged in User RoleBusiness.Role.AdminRole
+Organization created by enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Organization added by enterprise adminCaterer
+Employee added by enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	jhonin following Organization 	Caterer Organization	userinterface.AdministrativeRole.ManageEmployeeJpanel
+Users added by Enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	jhonRoleBusiness.Role.CatererRoleIn OrganizationCaterer Organization	userinterface.AdministrativeRole.ManageUserAccountJpanel
+Logged in User RoleBusiness.Role.SystemAdminRole
+enterpirse created by useruserinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+enterprise admin addeduserinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Logged in User RoleBusiness.Role.AdminRole
+Users added by Enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleBusiness.Role.AdminRole
+Users added by Enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Invalid credentials for user
+Logged in User RoleBusiness.Role.SystemAdminRole
+enterpirse created by useruserinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Logged in User RoleBusiness.Role.AdminRole
+Organization created by enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Organization added by enterprise adminDishFood
+Employee added by enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	jamesin following Organization 	Food Supplier Organization	userinterface.AdministrativeRole.ManageEmployeeJpanel
+Employee added by enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Users added by Enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	jamesRoleBusiness.Role.DishFoodSupplierRoleIn OrganizationFood Supplier Organization	userinterface.AdministrativeRole.ManageUserAccountJpanel
+Employee added by enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleBusiness.Role.AdminRole
+Organization created by enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Organization added by enterprise adminIngredient
+Employee added by enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	monicain following Organization 	Ingredient supplier Organization	userinterface.AdministrativeRole.ManageEmployeeJpanel
+Users added by Enterprise admin 	userinterface.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	monRoleBusiness.Role.IngredientRoleIn OrganizationIngredient supplier Organization	userinterface.AdministrativeRole.ManageUserAccountJpanel
+Current Enterprise	Bfoods
+Current Organization	Nutritionist Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.NutritionistRole
+currently in nutritionist role
+Caterer Organization
+In Enterprise	bcat
+In OrganizationCaterer Organization
+In networkBoston
+request sent to caterer
+saving prescription details to prescription data.txt
+returning to Nutritionist work area
+in lab test request
+request sent to lab
+Current Enterprise	Bfoods
+Current Organization	FDA Lab Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.LabAssistantRole
+lisa logged in
+lisa has assigned the request
+status has been set to pending
+entering process request page
+entering process request page
+Current Enterprise	bcat
+Current Organization	Caterer Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.CatererRole
+jhon  has logged in
+Current Enterprise	Bfoods
+Current Organization	Nutritionist Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.NutritionistRole
+currently in nutritionist role
+Entering Main JFrame	userinterface.MainJFrame
+Current Enterprise	Bfoods
+Current Organization	Nutritionist Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.NutritionistRole
+currently in nutritionist role
+Caterer Organization
+In Enterprise	bcat
+In OrganizationCaterer Organization
+In networkBoston
+request sent to caterer
+saving prescription details to prescription data.txt
+Entering Main JFrame	userinterface.MainJFrame
+Current Enterprise	Bfoods
+Current Organization	Nutritionist Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.NutritionistRole
+currently in nutritionist role
+Caterer Organization
+In Enterprise	bcat
+In OrganizationCaterer Organization
+In networkBoston
+request sent to caterer
+saving prescription details to prescription data.txt
+Current Enterprise	bcat
+Current Organization	Caterer Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.CatererRole
+jhon  has logged in
+dish added successfully
+jhon entering view details page
+jhon dishFood requests viewed
+jhon request sent to DishFood Organization
+jhon dishFood requests viewed
+Current Enterprise	foodm
+Current Organization	Food Supplier Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.DishFoodSupplierRole
+james logged in dishFood work area
+james assigned himself a task
+james entering processing page
+delivery date updated
+james entering ingredient requests page
+james added ingredientFish
+ingredient request has been sent to ingredients organization
+entering view ingredients requests page
+james entering view ingredient details page
+james entering lab requests page
+james entering nonexisting page as DishFood doesn't exist
+james entering dishFood adding page
+james added new ishFood sunflower seeds
+james entering add ingredients page
+james added ingredients and allergins to dishFood sunflower seeds
+james entering lab requests page
+james entering dishFood adding page
+james added new ishFood Sun
+james entering add ingredients page
+Current Enterprise	Bfoods
+Current Organization	FDA Lab Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.LabAssistantRole
+lisa logged in
+Current Enterprise	Bfoods
+Current Organization	Nutritionist Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.NutritionistRole
+in lab test request
+request sent to lab
+displaying results
+adding a request to lab assistant
+Current Enterprise	Bfoods
+Current Organization	FDA Lab Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.LabAssistantRole
+lisa logged in
+lisa has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	foodm
+Current Organization	Food Supplier Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.DishFoodSupplierRole
+james logged in dishFood work area
+james entering lab requests page
+james entering nonexisting page as DishFood doesn't exist
+james entering dishFood adding page
+james added new ishFood Bananas
+james entering lab requests page
+james entering nonexisting page as DishFood doesn't exist
+james entering dishFood adding page
+james entering dishFood adding page
+james entering add ingredients page
+james added ingredients and allergins to dishFood Bananas
+james entering lab requests page
+Current Enterprise	hay
+Current Organization	Ingredient supplier Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.IngredientRole
+mon assigned a task to himself
+mon processes the task
+request updated
+Current Enterprise	foodm
+Current Organization	Food Supplier Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.DishFoodSupplierRole
+james logged in dishFood work area
+james entering ingredient requests page
+entering view ingredients requests page
+Current Enterprise	bcat
+Current Organization	Caterer Organization
+Current Network	Boston
+Logged in User RoleBusiness.Role.CatererRole
+jhon  has logged in
+jhon entering view details page
+jhon dishFood requests viewed

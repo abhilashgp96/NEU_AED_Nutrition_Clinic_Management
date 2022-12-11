@@ -1,2 +1,5 @@
 Boston,Spinach salad'Iron Deficiency
 Boston,Egg yolk sandwiches'Iodine Deficiency
+Boston,Spinach salad'Iron Deficiency
+Boston,Iron Deficiency'Spinach salad
+Boston,Iodine Deficiency'Fish curry
