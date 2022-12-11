@@ -4,6 +4,8 @@
  */
 package Business.Nutritionist;
 
+import Business.Allergin.AllerginRecord;
+
 /**
  *
  * @author Anvita
