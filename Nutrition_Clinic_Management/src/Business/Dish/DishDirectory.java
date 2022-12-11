@@ -12,8 +12,9 @@ import java.util.ArrayList;
  */
 public class DishDirectory {
     private ArrayList<Dish> dishLst;
-    public DishDirectory(){
-     dishLst = new ArrayList<Dish>();
+
+    public DishDirectory() {
+        this.dishLst = new ArrayList<Dish>();
     }
 
     public ArrayList<Dish> getDishLst() {

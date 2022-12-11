@@ -127,7 +127,9 @@ public class DishFoodSupplierWorkArea extends javax.swing.JPanel {
 
         add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 1240, 290));
 
+        assignBtn.setBackground(new java.awt.Color(0, 0, 0));
         assignBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        assignBtn.setForeground(new java.awt.Color(255, 255, 255));
         assignBtn.setText("Assign to me");
         assignBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         assignBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -137,17 +139,21 @@ public class DishFoodSupplierWorkArea extends javax.swing.JPanel {
         });
         add(assignBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 530, 220, -1));
 
+        reqIngButton.setBackground(new java.awt.Color(0, 0, 0));
         reqIngButton.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
-        reqIngButton.setText("request Dish ingredients");
+        reqIngButton.setForeground(new java.awt.Color(255, 255, 255));
+        reqIngButton.setText("Request Dish ingredients");
         reqIngButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         reqIngButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 reqIngButtonActionPerformed(evt);
             }
         });
-        add(reqIngButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(148, 626, -1, 62));
+        add(reqIngButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 620, -1, 62));
 
+        processBtn.setBackground(new java.awt.Color(0, 0, 0));
         processBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        processBtn.setForeground(new java.awt.Color(255, 255, 255));
         processBtn.setText("Process");
         processBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         processBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -157,7 +163,9 @@ public class DishFoodSupplierWorkArea extends javax.swing.JPanel {
         });
         add(processBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 530, 230, -1));
 
+        labRequestButton.setBackground(new java.awt.Color(0, 0, 0));
         labRequestButton.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        labRequestButton.setForeground(new java.awt.Color(255, 255, 255));
         labRequestButton.setText("View Lab Requests");
         labRequestButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         labRequestButton.addActionListener(new java.awt.event.ActionListener() {
@@ -167,8 +175,10 @@ public class DishFoodSupplierWorkArea extends javax.swing.JPanel {
         });
         add(labRequestButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(518, 636, 300, 50));
 
+        addDishFoodButton.setBackground(new java.awt.Color(0, 0, 0));
         addDishFoodButton.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
-        addDishFoodButton.setText("ADD DishFood");
+        addDishFoodButton.setForeground(new java.awt.Color(255, 255, 255));
+        addDishFoodButton.setText("Add DishFood");
         addDishFoodButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         addDishFoodButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -177,7 +187,9 @@ public class DishFoodSupplierWorkArea extends javax.swing.JPanel {
         });
         add(addDishFoodButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(928, 636, 220, 50));
 
+        refreshBtn.setBackground(new java.awt.Color(0, 0, 0));
         refreshBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        refreshBtn.setForeground(new java.awt.Color(255, 255, 255));
         refreshBtn.setText("Refresh");
         refreshBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         refreshBtn.addActionListener(new java.awt.event.ActionListener() {

@@ -79,7 +79,7 @@ public class IngredientWorkArea extends javax.swing.JPanel {
         processBtn = new javax.swing.JButton();
         resfreshBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 204, 204));
+        setBackground(new java.awt.Color(230, 224, 224));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         dishFoodSupplierLbl.setFont(new java.awt.Font("Nirmala UI", 1, 36)); // NOI18N
@@ -101,7 +101,9 @@ public class IngredientWorkArea extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 710, 260));
 
-        assignBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        assignBtn.setBackground(new java.awt.Color(0, 0, 0));
+        assignBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        assignBtn.setForeground(new java.awt.Color(255, 255, 255));
         assignBtn.setText("Assign to me");
         assignBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -110,23 +112,27 @@ public class IngredientWorkArea extends javax.swing.JPanel {
         });
         add(assignBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 280, -1, -1));
 
-        processBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        processBtn.setBackground(new java.awt.Color(0, 0, 0));
+        processBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        processBtn.setForeground(new java.awt.Color(255, 255, 255));
         processBtn.setText("Process");
         processBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 processBtnActionPerformed(evt);
             }
         });
-        add(processBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 380, 170, 40));
+        add(processBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 380, 190, 40));
 
-        resfreshBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        resfreshBtn.setBackground(new java.awt.Color(0, 0, 0));
+        resfreshBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        resfreshBtn.setForeground(new java.awt.Color(255, 255, 255));
         resfreshBtn.setText("Refresh");
         resfreshBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 resfreshBtnActionPerformed(evt);
             }
         });
-        add(resfreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 180, 160, -1));
+        add(resfreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 180, 190, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void assignBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assignBtnActionPerformed

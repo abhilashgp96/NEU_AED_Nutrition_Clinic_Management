@@ -26,11 +26,11 @@ public class DishFoodCatalogue {
     private int reqdQuant;
     private String reorderStatus="N";
 
-    public String getDishFoodname() {
+    public String getDishFoodName() {
         return dishFoodname;
     }
 
-    public void setDishFoodname(String dishFoodname) {
+    public void setDishFoodName(String dishFoodname) {
         this.dishFoodname = dishFoodname;
     }
 

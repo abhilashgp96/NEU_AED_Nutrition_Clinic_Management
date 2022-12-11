@@ -170,7 +170,7 @@ public class ManageUserAccountJpanel extends javax.swing.JPanel {
         });
         add(createUserbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 670, 233, 30));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-security-pass-100.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-security-pass-100.png"))); // NOI18N
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 480, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

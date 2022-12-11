@@ -195,7 +195,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         jLabel6.setText("Enterprise Admin");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, 440, 52));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-manager-100.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-manager-100.png"))); // NOI18N
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 30, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

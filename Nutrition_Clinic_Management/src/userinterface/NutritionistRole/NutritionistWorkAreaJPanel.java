@@ -65,7 +65,7 @@ public class NutritionistWorkAreaJPanel extends javax.swing.JPanel {
         labTestBtn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 204));
+        setBackground(new java.awt.Color(230, 224, 224));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Nutritionistbl.setFont(new java.awt.Font("Nirmala UI", 1, 36)); // NOI18N
@@ -81,8 +81,7 @@ public class NutritionistWorkAreaJPanel extends javax.swing.JPanel {
                 PrescriptionBtnActionPerformed(evt);
             }
         });
-        add(PrescriptionBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 400, 260, 90));
-
+add(PrescriptionBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 400, 260, 90));
         labTestBtn.setBackground(new java.awt.Color(0, 0, 0));
         labTestBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         labTestBtn.setForeground(new java.awt.Color(255, 255, 255));
@@ -92,7 +91,7 @@ public class NutritionistWorkAreaJPanel extends javax.swing.JPanel {
                 labTestBtnActionPerformed(evt);
             }
         });
-        add(labTestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 400, 260, 90));
+ add(labTestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 400, 260, 90));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/nutritionist.png"))); // NOI18N
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 100, 340, 290));

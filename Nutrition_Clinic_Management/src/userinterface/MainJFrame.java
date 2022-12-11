@@ -104,9 +104,9 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-user-64.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-user-64.png"))); // NOI18N
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-password-64.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-password-64.png"))); // NOI18N
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/attachment_72197648_50.png"))); // NOI18N
 

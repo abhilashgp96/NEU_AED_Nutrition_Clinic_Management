@@ -92,43 +92,44 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         bakBtn = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         prescriptionJTable = new javax.swing.JTable();
+        jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 204));
+        setBackground(new java.awt.Color(230, 224, 224));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         NutritionistPrescriptionLbl.setFont(new java.awt.Font("Nirmala UI", 1, 36)); // NOI18N
         NutritionistPrescriptionLbl.setText("Nutritionist Prescription");
-        add(NutritionistPrescriptionLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, -1, -1));
+        add(NutritionistPrescriptionLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, -1, -1));
 
-        nameLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        nameLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         nameLbl.setText("Name");
         add(nameLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 120, -1, -1));
 
-        ageLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        ageLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         ageLbl.setText("Age");
         add(ageLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 180, -1, -1));
 
-        sexLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        sexLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         sexLbl.setText("Sex");
         add(sexLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 240, -1, -1));
 
-        prognosisLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        prognosisLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         prognosisLbl.setText("Deficient In");
         add(prognosisLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 300, 130, -1));
 
-        dishLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        dishLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         dishLbl.setText("Suggested Dish");
         add(dishLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 300, -1, -1));
 
-        TimesLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        TimesLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         TimesLbl.setText("Times");
         add(TimesLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 180, -1, -1));
 
-        forLbl.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        forLbl.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         forLbl.setText("For");
         add(forLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 240, -1, -1));
 
-        datLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        datLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         datLbl.setText("Date");
         add(datLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 120, -1, -1));
 
@@ -172,7 +173,9 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         add(noofDaysTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 240, 130, 30));
         add(DateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 122, 130, 30));
 
-        saveBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        saveBtn.setBackground(new java.awt.Color(0, 0, 0));
+        saveBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        saveBtn.setForeground(new java.awt.Color(255, 255, 255));
         saveBtn.setText("Save");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -181,9 +184,11 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         });
         add(saveBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 370, -1, -1));
 
-        bakBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        bakBtn.setBackground(new java.awt.Color(0, 0, 0));
+        bakBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        bakBtn.setForeground(new java.awt.Color(255, 255, 255));
         bakBtn.setText("Back");
-        add(bakBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(9, 649, 90, 30));
+        add(bakBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(9, 649, 110, 30));
 
         prescriptionJTable.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
         prescriptionJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -200,6 +205,9 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(prescriptionJTable);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(192, 427, 650, 210));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/pexels-alexandros-chatzidimos-3652750 (1).jpg"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 10, 580, 100));
     }// </editor-fold>//GEN-END:initComponents
 
     private void saveBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveBtnActionPerformed
@@ -367,6 +375,7 @@ public void populateWorkRequestTable(){
     private javax.swing.JComboBox<String> dishCombobox;
     private javax.swing.JLabel dishLbl;
     private javax.swing.JLabel forLbl;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel nameLbl;
     private javax.swing.JTextField nameTxtField;

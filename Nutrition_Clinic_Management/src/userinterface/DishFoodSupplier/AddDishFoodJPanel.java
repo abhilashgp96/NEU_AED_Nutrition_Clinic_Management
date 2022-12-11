@@ -59,7 +59,7 @@ public class AddDishFoodJPanel extends javax.swing.JPanel {
         for (Dish d : business.getDishLst().getDishLst()) {
 
             Object[] row = new Object[2];
-            row[0] = d.getDishFood_Id();
+            row[0] = d.getDishFoodId();
             row[1] = d;
             model.addRow(row);
 
@@ -128,8 +128,10 @@ public class AddDishFoodJPanel extends javax.swing.JPanel {
         });
         add(drugtxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(396, 431, 230, 40));
 
+        addDishFoodBtn.setBackground(new java.awt.Color(0, 0, 0));
         addDishFoodBtn.setFont(new java.awt.Font("Nirmala UI", 1, 20)); // NOI18N
-        addDishFoodBtn.setText("ADD dishFood");
+        addDishFoodBtn.setForeground(new java.awt.Color(255, 255, 255));
+        addDishFoodBtn.setText("Add dishFood");
         addDishFoodBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         addDishFoodBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -142,8 +144,10 @@ public class AddDishFoodJPanel extends javax.swing.JPanel {
         jLabel3.setText("DishFood");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(273, 431, 123, 40));
 
+        addIngredientButton.setBackground(new java.awt.Color(0, 0, 0));
         addIngredientButton.setFont(new java.awt.Font("Nirmala UI", 1, 20)); // NOI18N
-        addIngredientButton.setText("ADD Ingredient");
+        addIngredientButton.setForeground(new java.awt.Color(255, 255, 255));
+        addIngredientButton.setText("Add Ingredient");
         addIngredientButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         addIngredientButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
