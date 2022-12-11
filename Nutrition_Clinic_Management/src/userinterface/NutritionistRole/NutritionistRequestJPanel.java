@@ -83,29 +83,30 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         nutritionistRequestTbl = new javax.swing.JTable();
         backJButton = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 204));
+        setBackground(new java.awt.Color(230, 224, 224));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        namelbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        namelbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         namelbl.setText("Name");
         add(namelbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 190, -1, -1));
 
-        ageLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        ageLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         ageLbl.setText("Age");
         add(ageLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, -1, -1));
 
-        diagnosisLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        diagnosisLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         diagnosisLbl.setText("Allergy Test Required");
         add(diagnosisLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 370, -1, 40));
 
-        sexLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        sexLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         sexLbl.setText("sex");
         add(sexLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 310, -1, -1));
 
         resultsLbl.setFont(new java.awt.Font("Nirmala UI", 1, 36)); // NOI18N
         resultsLbl.setText("Lab Results");
-        add(resultsLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 90, -1, -1));
+        add(resultsLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 90, -1, -1));
 
         enterpriseLbl.setFont(new java.awt.Font("Nirmala UI", 1, 36)); // NOI18N
         enterpriseLbl.setText("Enterprise :");
@@ -116,7 +117,9 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
         valueLbl.setToolTipText("");
         add(valueLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, 110, 30));
 
-        requestTestBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        requestTestBtn.setBackground(new java.awt.Color(0, 0, 0));
+        requestTestBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        requestTestBtn.setForeground(new java.awt.Color(255, 255, 255));
         requestTestBtn.setText("Request Test");
         requestTestBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -125,7 +128,9 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
         });
         add(requestTestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 470, -1, -1));
 
-        viewResultsbtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        viewResultsbtn.setBackground(new java.awt.Color(0, 0, 0));
+        viewResultsbtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        viewResultsbtn.setForeground(new java.awt.Color(255, 255, 255));
         viewResultsbtn.setText("View Results");
         viewResultsbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -134,7 +139,9 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
         });
         add(viewResultsbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 470, -1, -1));
 
-        clinicalTrial.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        clinicalTrial.setBackground(new java.awt.Color(0, 0, 0));
+        clinicalTrial.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        clinicalTrial.setForeground(new java.awt.Color(255, 255, 255));
         clinicalTrial.setText("Clinical Trial");
         clinicalTrial.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -143,14 +150,16 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
         });
         add(clinicalTrial, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 470, -1, -1));
 
-        refreshbtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        refreshbtn.setBackground(new java.awt.Color(0, 0, 0));
+        refreshbtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        refreshbtn.setForeground(new java.awt.Color(255, 255, 255));
         refreshbtn.setText("Refresh");
         refreshbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 refreshbtnActionPerformed(evt);
             }
         });
-        add(refreshbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 130, -1, -1));
+        add(refreshbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 130, -1, -1));
 
         nameTxtField.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
         add(nameTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 190, 180, -1));
@@ -193,7 +202,9 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 180, 620, 250));
 
-        backJButton.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        backJButton.setBackground(new java.awt.Color(0, 0, 0));
+        backJButton.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setText("Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -201,6 +212,9 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
             }
         });
         add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 570, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-eppendorf-100.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 70, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void refreshbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshbtnActionPerformed
@@ -383,6 +397,7 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
     private javax.swing.JButton clinicalTrial;
     private javax.swing.JLabel diagnosisLbl;
     private javax.swing.JLabel enterpriseLbl;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField nameTxtField;
     private javax.swing.JLabel namelbl;

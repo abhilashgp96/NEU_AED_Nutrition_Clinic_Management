@@ -68,15 +68,16 @@ public class NutritionistLabTestReportsJPanel extends javax.swing.JPanel {
         allerginTbl = new javax.swing.JTable();
         backBtn = new javax.swing.JButton();
         refreshBtn = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 204));
+        setBackground(new java.awt.Color(230, 224, 224));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         LabTestLbl.setFont(new java.awt.Font("Nirmala UI", 1, 48)); // NOI18N
         LabTestLbl.setText("Lab Test Result");
         add(LabTestLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(294, 90, 350, 60));
 
-        patientLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        patientLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         patientLbl.setText("Patient Name");
         add(patientLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, -1, -1));
 
@@ -107,7 +108,9 @@ public class NutritionistLabTestReportsJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 280, -1, 240));
 
-        backBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -116,14 +119,19 @@ public class NutritionistLabTestReportsJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 550, -1, -1));
 
-        refreshBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        refreshBtn.setBackground(new java.awt.Color(0, 0, 0));
+        refreshBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        refreshBtn.setForeground(new java.awt.Color(255, 255, 255));
         refreshBtn.setText("Refresh");
         refreshBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 refreshBtnActionPerformed(evt);
             }
         });
-        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 550, 120, 30));
+        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 550, 140, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-lab-coat-100.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 70, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void refreshBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshBtnActionPerformed
@@ -146,6 +154,7 @@ public class NutritionistLabTestReportsJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel LabTestLbl;
     private javax.swing.JTable allerginTbl;
     private javax.swing.JButton backBtn;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel patientLbl;
     private javax.swing.JTextField patientTxtField;
