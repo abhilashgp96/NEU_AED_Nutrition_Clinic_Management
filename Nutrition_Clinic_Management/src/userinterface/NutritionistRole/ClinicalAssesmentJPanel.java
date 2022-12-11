@@ -82,7 +82,7 @@ public class ClinicalAssesmentJPanel extends javax.swing.JPanel {
         add(statusUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 520, -1, -1));
 
         sexcomboBox.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
-        sexcomboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        sexcomboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Please select--", "Success", "Failure" }));
         add(sexcomboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 300, -1, -1));
 
         patientTxtField.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
