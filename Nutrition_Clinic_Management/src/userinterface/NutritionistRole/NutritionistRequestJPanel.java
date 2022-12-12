@@ -247,6 +247,7 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
     LabTestWorkRequest request = new LabTestWorkRequest();
     request.setMessage(message);
     request.setSender(account);
+    request.setStatus("Sent");
     request.setPatientName(patientName);
     Patient patient = new Patient();
     patient.setPatientFullName(patientName);
