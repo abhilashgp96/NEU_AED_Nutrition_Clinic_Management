@@ -69,7 +69,6 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
         saveButton = new javax.swing.JButton();
         backButton = new javax.swing.JButton();
         dishLbl = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(204, 204, 204));
@@ -147,9 +146,6 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
         dishLbl.setText("View Dish Details");
         add(dishLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 90, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/medicineDetails.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 0, 910, 790));
-
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/icons8-dish-85.png"))); // NOI18N
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 70, 130, 90));
     }// </editor-fold>//GEN-END:initComponents
@@ -225,7 +221,6 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
     private javax.swing.JButton backButton;
     private javax.swing.JLabel dishFoodLbl;
     private javax.swing.JLabel dishLbl;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JButton saveButton;
     private javax.swing.JLabel serialNumLbl;

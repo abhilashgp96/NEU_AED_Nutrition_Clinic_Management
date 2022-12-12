@@ -88,7 +88,6 @@ public class DishFoodSupplierWorkArea extends javax.swing.JPanel {
         labRequestButton = new javax.swing.JButton();
         addDishFoodButton = new javax.swing.JButton();
         refreshBtn = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(204, 204, 204));
@@ -198,9 +197,6 @@ public class DishFoodSupplierWorkArea extends javax.swing.JPanel {
             }
         });
         add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 530, 169, -1));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/DrugSupplierWork.jpg"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 30, 110, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/SeekPng.com_owner-icon-png_4304156.png"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 0, 370, 200));
@@ -344,7 +340,6 @@ public class DishFoodSupplierWorkArea extends javax.swing.JPanel {
     private javax.swing.JButton addDishFoodButton;
     private javax.swing.JButton assignBtn;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JButton labRequestButton;

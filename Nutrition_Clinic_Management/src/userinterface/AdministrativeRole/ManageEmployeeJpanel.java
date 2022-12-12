@@ -102,6 +102,7 @@ public class ManageEmployeeJpanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        organizationTbl.setRowHeight(26);
         organizationTbl.getTableHeader().setResizingAllowed(false);
         organizationTbl.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(organizationTbl);

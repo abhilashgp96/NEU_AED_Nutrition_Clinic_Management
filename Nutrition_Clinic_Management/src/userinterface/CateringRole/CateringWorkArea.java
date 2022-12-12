@@ -172,7 +172,7 @@ public class CateringWorkArea extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(CateringTble);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(126, 111, 871, 238));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 111, 960, 238));
 
         serialNumLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         serialNumLbl.setText("SERIAL NUMBER: ");
@@ -254,8 +254,6 @@ public class CateringWorkArea extends javax.swing.JPanel {
         CateringLbl.setFont(new java.awt.Font("Nirmala UI", 1, 48)); // NOI18N
         CateringLbl.setText("Catering Work Area");
         add(CateringLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 20, -1, -1));
-
-        dishlbl.setIcon(new javax.swing.ImageIcon("/Users/soumya/Downloads/icons8-dish-64.png")); // NOI18N
         add(dishlbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 570, 110, 60));
 
         inventorylbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/icons8-inventory-64.png"))); // NOI18N
