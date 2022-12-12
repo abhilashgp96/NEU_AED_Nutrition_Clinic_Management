@@ -38,6 +38,16 @@ There’s all sorts of scrambled, half-baked nutrition information out there the
 HIERARCHY STRUCTURE :
 ![Nutrition Clinic Management - Hierarchy Structure](https://user-images.githubusercontent.com/114604212/206951755-85048a31-2cc4-4e0c-86c5-6867d4fbebef.png)
 
+Architecture Diagram:
+
+![Nutrition Clinic Management - Architecture Diagram ](https://user-images.githubusercontent.com/114604212/206953573-37e361f8-de87-4956-82b0-eea179053f28.png)
+
+USE CASE:
+![Nutrition Clinic Management - Use Case](https://user-images.githubusercontent.com/114604212/206953615-dad16359-1e2e-4966-9615-62fcf2c499ce.png)
+
+UML Diagram:
+
+![Nutrition_Clinic_Management](https://user-images.githubusercontent.com/114604212/206953726-fc2fdbbf-a567-44ab-906e-427ae4f86272.png)
 
 
 
