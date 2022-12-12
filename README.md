@@ -14,13 +14,12 @@ Anvita Shankargouda Patil - 002726714 <br>
 
 # Problem Statement:
 
-There’s all sorts of scrambled, half-baked nutrition information out there these days. We are aiming to maintain a healthy energy balance while also providing adequate amounts of nutrients like protein, vitamins, and minerals.By working in community settings like food markets and ingredient-specific markets and offering nutrition assessments.We believe there is a need for a comprehensive and affordable solution in the health and wellness sector for living a healthy lifestyle.Nutrition Clinic Managements maintains statistical data of an Ingredient effective in targeting a certain Allergy pertaining to a certain deficiency and provides a meal for that Ingredient to test the effectiveness in targeting other deficiencies that share the same type of Allergy. As part of our project, we offer individualized counseling and create meal plans that can transform people's lives and assist patients who are struggling with nutritional deficiencies.
+There’s all sorts of scrambled, half-baked nutrition information out there these days. We are aiming to maintain a healthy energy balance while also providing adequate amounts of nutrients like protein, vitamins, and minerals.By working in community settings like food markets and ingredient-specific markets and offering nutrition assessments.We believe there is a need for a comprehensive and affordable solution in the health and wellness sector for living a healthy lifestyle. As part of our project, we offer individualized counseling and create meal plans that can transform people's lives and assist patients who are struggling with nutritional deficiencies.
 
 #Approach
 
 * To assist the Clinics in integrating data from many sources in the health and wellness industry.
 * To give nutrition clinics a unified platform on which to concentrate on the creation and promotion of novel foods and meals for the treatment of disease in patients with nutritional deficiencies wherever in the globe.
-* The Food Supplier Market maintains track of allergies and how they target particular food components in meals. By combining existing allergies, the food supply market will be able to produce new meals in the future when a new allergy arises.
 
 #Area of interest:
 
@@ -35,3 +34,12 @@ There’s all sorts of scrambled, half-baked nutrition information out there the
 * We think that by upholding a healthy energy balance, establishing a unified framework for nutritional assessments will significantly improve people's lives. 
 * Also,a safer and more affordable diagnosis can be given to millions of patients nationwide. 
 * Inventory management across numerous businesses enables quicker delivery of meals to patients.
+
+HIERARCHY STRUCTURE :
+![Nutrition Clinic Management - Hierarchy Structure](https://user-images.githubusercontent.com/114604212/206951755-85048a31-2cc4-4e0c-86c5-6867d4fbebef.png)
+
+
+
+
+
+
