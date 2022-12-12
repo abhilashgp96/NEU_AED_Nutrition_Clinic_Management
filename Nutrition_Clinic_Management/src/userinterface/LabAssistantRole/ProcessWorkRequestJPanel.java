@@ -253,7 +253,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
             System.out.println("***** Organization Name:" + enterprise.getOrgName());
             for (Organization organization : enterprise.getOrganizationDirectory().getOrganizationLst()) {
                 System.out.println("***** Organization Name:" + organization.getOrgName());
-                if (organization.getOrgName().equals("Drug Organization")) {
+                if (organization.getOrgName().equals("Food Supplier Organization")) {
                     System.out.println("True");
 
                     System.out.println("***** organization Name" + organization.getOrgName());
