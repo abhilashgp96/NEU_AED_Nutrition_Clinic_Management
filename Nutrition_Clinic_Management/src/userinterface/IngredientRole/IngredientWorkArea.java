@@ -97,6 +97,7 @@ public class IngredientWorkArea extends javax.swing.JPanel {
                 "DishFood Name", "Quantity", "Sender", "Receiver", "Status", "Delivery Time"
             }
         ));
+        workRequestTbl.setRowHeight(26);
         jScrollPane1.setViewportView(workRequestTbl);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 710, 260));

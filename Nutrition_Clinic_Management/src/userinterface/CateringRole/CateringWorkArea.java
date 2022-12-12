@@ -141,6 +141,7 @@ public class CateringWorkArea extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        nutritionistrequestTable.setRowHeight(26);
         jScrollPane.setViewportView(nutritionistrequestTable);
 
         add(jScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(172, 686, 714, 177));
@@ -170,6 +171,7 @@ public class CateringWorkArea extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        CateringTble.setRowHeight(26);
         jScrollPane1.setViewportView(CateringTble);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 111, 960, 238));

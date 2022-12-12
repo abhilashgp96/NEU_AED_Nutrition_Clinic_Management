@@ -43,7 +43,7 @@ Architecture Diagram:
 ![Nutrition Clinic Management - Architecture Diagram ](https://user-images.githubusercontent.com/114604212/206953573-37e361f8-de87-4956-82b0-eea179053f28.png)
 
 USE CASE:
-![Nutrition Clinic Management - Use Case](https://user-images.githubusercontent.com/114604212/206953615-dad16359-1e2e-4966-9615-62fcf2c499ce.png)
+![Nutrition Clinic Management - Use Case (1)](https://user-images.githubusercontent.com/114604212/206955833-fc40bae5-a475-4510-aeda-30e4ecdab2e7.png)
 
 UML Diagram:
 

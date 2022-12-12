@@ -198,6 +198,7 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
                 return types [columnIndex];
             }
         });
+        nutritionistRequestTbl.setRowHeight(26);
         jScrollPane1.setViewportView(nutritionistRequestTbl);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 180, 620, 250));
@@ -247,6 +248,7 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
     LabTestWorkRequest request = new LabTestWorkRequest();
     request.setMessage(message);
     request.setSender(account);
+    request.setStatus("Sent");
     request.setPatientName(patientName);
     Patient patient = new Patient();
     patient.setPatientFullName(patientName);

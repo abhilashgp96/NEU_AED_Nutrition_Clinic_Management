@@ -135,6 +135,7 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
                 return types [columnIndex];
             }
         });
+        workRequestJTable.setRowHeight(26);
         jScrollPane1.setViewportView(workRequestJTable);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, 750, 250));

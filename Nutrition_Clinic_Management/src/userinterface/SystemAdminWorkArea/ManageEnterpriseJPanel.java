@@ -110,6 +110,7 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        enterpriseJTable.setRowHeight(26);
         jScrollPane1.setViewportView(enterpriseJTable);
 
         jLabel1.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N

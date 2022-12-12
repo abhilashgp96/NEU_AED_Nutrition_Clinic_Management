@@ -123,6 +123,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        enterpriseJTable.setRowHeight(26);
         jScrollPane1.setViewportView(enterpriseJTable);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 150, 690, 210));

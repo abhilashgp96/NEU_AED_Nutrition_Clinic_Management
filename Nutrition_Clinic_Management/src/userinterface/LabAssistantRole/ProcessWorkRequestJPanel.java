@@ -155,6 +155,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
                 return types [columnIndex];
             }
         });
+        allerginTbl.setRowHeight(26);
         jScrollPane1.setViewportView(allerginTbl);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 240, 480, 140));
@@ -252,7 +253,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
             System.out.println("***** Organization Name:" + enterprise.getOrgName());
             for (Organization organization : enterprise.getOrganizationDirectory().getOrganizationLst()) {
                 System.out.println("***** Organization Name:" + organization.getOrgName());
-                if (organization.getOrgName().equals("Drug Organization")) {
+                if (organization.getOrgName().equals("Food Supplier Organization")) {
                     System.out.println("True");
 
                     System.out.println("***** organization Name" + organization.getOrgName());
