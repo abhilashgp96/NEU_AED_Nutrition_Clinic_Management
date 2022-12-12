@@ -19,7 +19,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author kasai
+ * @author abhilashgp
  */
 public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -96,7 +96,6 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         btnManageNetwork = new javax.swing.JButton();
         btnManageEnterprise = new javax.swing.JButton();
         btnManageAdmin = new javax.swing.JButton();
-        viewReportsBtn = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
         setLayout(new java.awt.BorderLayout());
@@ -171,18 +170,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
         jPanel2.add(btnManageAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(91, 193, 390, -1));
 
-        viewReportsBtn.setBackground(new java.awt.Color(0, 0, 0));
-        viewReportsBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
-        viewReportsBtn.setForeground(new java.awt.Color(255, 255, 255));
-        viewReportsBtn.setText("View Reports");
-        viewReportsBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                viewReportsBtnActionPerformed(evt);
-            }
-        });
-        jPanel2.add(viewReportsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 240, 390, 40));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-omnichannel-100.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-omnichannel-100.png"))); // NOI18N
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 140, -1, -1));
 
         jSplitPane.setRightComponent(jPanel2);
@@ -244,14 +232,6 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         }
     }//GEN-LAST:event_jTreeValueChanged
 
-    private void viewReportsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewReportsBtnActionPerformed
-        userinterface.SystemAdminWorkArea.ViewReportsJPanel ViewReports = new userinterface.SystemAdminWorkArea.ViewReportsJPanel(userProcessContainer, ecosystem);
-        userProcessContainer.add("ViewReports",ViewReports);
-        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
-        layout.next(userProcessContainer);
-        
-    }//GEN-LAST:event_viewReportsBtnActionPerformed
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnManageAdmin;
@@ -265,6 +245,5 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JSplitPane jSplitPane;
     private javax.swing.JTree jTree;
     private javax.swing.JLabel lblSelectedNode;
-    private javax.swing.JButton viewReportsBtn;
     // End of variables declaration//GEN-END:variables
 }

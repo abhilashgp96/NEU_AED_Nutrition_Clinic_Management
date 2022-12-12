@@ -89,17 +89,18 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         backBtn = new javax.swing.JButton();
         addAllerginBtn = new javax.swing.JButton();
         patientTxtField = new javax.swing.JTextField();
-        submitBtn = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         allerginTbl = new javax.swing.JTable();
         allerginTxt = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        submitBtn = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(204, 204, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         resultLbl.setFont(new java.awt.Font("Nirmala UI", 1, 36)); // NOI18N
         resultLbl.setText("Result");
-        add(resultLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 60, -1, -1));
+        add(resultLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 60, -1, -1));
 
         patientNameLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
         patientNameLbl.setText("Patient Name");
@@ -109,7 +110,9 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         allerginLbl.setText("Allergin");
         add(allerginLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 410, 110, -1));
 
-        backBtn.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Nirmala UI", 1, 18)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -118,7 +121,9 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 560, -1, -1));
 
-        addAllerginBtn.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
+        addAllerginBtn.setBackground(new java.awt.Color(0, 0, 0));
+        addAllerginBtn.setFont(new java.awt.Font("Nirmala UI", 1, 18)); // NOI18N
+        addAllerginBtn.setForeground(new java.awt.Color(255, 255, 255));
         addAllerginBtn.setText("Add Allergin");
         addAllerginBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -128,16 +133,8 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         add(addAllerginBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 410, -1, -1));
 
         patientTxtField.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        patientTxtField.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(patientTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 250, 160, -1));
-
-        submitBtn.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
-        submitBtn.setText("Submit");
-        submitBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                submitBtnActionPerformed(evt);
-            }
-        });
-        add(submitBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 560, -1, -1));
 
         allerginTbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -163,7 +160,22 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 240, 480, 140));
 
         allerginTxt.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        allerginTxt.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(allerginTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 410, 150, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-test-passed-80.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 50, -1, -1));
+
+        submitBtn.setBackground(new java.awt.Color(0, 0, 0));
+        submitBtn.setFont(new java.awt.Font("Nirmala UI", 1, 18)); // NOI18N
+        submitBtn.setForeground(new java.awt.Color(255, 255, 255));
+        submitBtn.setText("Submit");
+        submitBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                submitBtnActionPerformed(evt);
+            }
+        });
+        add(submitBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 560, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
      public void saveRecord(String gene) {
@@ -218,7 +230,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
 
     private void submitBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitBtnActionPerformed
         // TODO add your handling code here:
-         submitBtn.setEnabled(true);
+                submitBtn.setEnabled(true);
         ArrayList<String> genecheck = new ArrayList<>();
         for (Allergin g : ((LabTestWorkRequest) request).getPatient().getAllerginHistory().getAllerginRecord()) {
             genecheck.add(g.getAllerginName());
@@ -263,10 +275,11 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
     private javax.swing.JTable allerginTbl;
     private javax.swing.JTextField allerginTxt;
     private javax.swing.JButton backBtn;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel patientNameLbl;
     private javax.swing.JTextField patientTxtField;
     private javax.swing.JLabel resultLbl;
-    private javax.swing.JTextField submitBtn;
+    private javax.swing.JButton submitBtn;
     // End of variables declaration//GEN-END:variables
 }

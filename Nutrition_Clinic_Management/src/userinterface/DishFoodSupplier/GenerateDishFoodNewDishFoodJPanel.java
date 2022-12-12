@@ -122,7 +122,9 @@ public class GenerateDishFoodNewDishFoodJPanel extends javax.swing.JPanel {
         resultLbl.setText("New DishFood");
         add(resultLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 30, -1, -1));
 
-        backBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -132,7 +134,9 @@ public class GenerateDishFoodNewDishFoodJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 537, 170, -1));
 
-        addnewdishFoodBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        addnewdishFoodBtn.setBackground(new java.awt.Color(0, 0, 0));
+        addnewdishFoodBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        addnewdishFoodBtn.setForeground(new java.awt.Color(255, 255, 255));
         addnewdishFoodBtn.setText("Add New DishFood");
         addnewdishFoodBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         addnewdishFoodBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -228,7 +232,7 @@ public class GenerateDishFoodNewDishFoodJPanel extends javax.swing.JPanel {
             String s = newDishFoodTbl.getValueAt(i, 0).toString();
             d.getAllergenRecord().addAllerginLst().setAllerginName(s);
             String t = newDishFoodTbl.getValueAt(i, 1).toString();
-            d.getIngredientLst().addNewIngredientLst().setIngName(t);
+            d.getIngredientLst().addNewIngLst().setIngName(t);
 
         }
         JOptionPane.showMessageDialog(null,"New DishFood is added succesfully");

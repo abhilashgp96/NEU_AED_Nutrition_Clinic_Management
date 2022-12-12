@@ -16,7 +16,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author vgout
+ * @author abhilashgp
  */
 public class AdminWorkAreaJpanel extends javax.swing.JPanel {
     
@@ -103,7 +103,7 @@ public class AdminWorkAreaJpanel extends javax.swing.JPanel {
         add(manageOrganizationbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 300, 320, 70));
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, -30, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-administrator-male-100.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-administrator-male-100.png"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 70, -1, 60));
     }// </editor-fold>//GEN-END:initComponents
 

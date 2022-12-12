@@ -16,7 +16,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author kasai
+ * @author abhilashgp
  */
 public class ManageNetworkJPanel extends javax.swing.JPanel {
 
@@ -137,7 +137,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         jLabel6.setText("Manage Network");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, 440, 70));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-workflow-100.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-workflow-100.png"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 10, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

@@ -155,7 +155,9 @@ public class AddIngredientsJPanel extends javax.swing.JPanel {
         allerginLabel.setText("Allergin");
         add(allerginLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(266, 427, 150, -1));
 
+        addBtn.setBackground(new java.awt.Color(0, 0, 0));
         addBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        addBtn.setForeground(new java.awt.Color(255, 255, 255));
         addBtn.setText("Add");
         addBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         addBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -165,7 +167,9 @@ public class AddIngredientsJPanel extends javax.swing.JPanel {
         });
         add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(508, 524, 120, 40));
 
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
         backBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText(" Back");
         backBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -181,7 +185,7 @@ public class AddIngredientsJPanel extends javax.swing.JPanel {
 
         jLabel1.setFont(new java.awt.Font("Nirmala UI", 0, 13)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/icons8-meal-64.png"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 30, 110, 70));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 50, 110, 70));
     }// </editor-fold>//GEN-END:initComponents
 
     private void ingredientTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ingredientTxtActionPerformed
@@ -224,7 +228,7 @@ public class AddIngredientsJPanel extends javax.swing.JPanel {
           JOptionPane.showMessageDialog(null,"Allergin already exists in the dishFood ");
              return;   
          }
-        dish.getIngredientLst().addNewIngredientLst().setIngName(ingredientName);
+        dish.getIngredientLst().addNewIngLst().setIngName(ingredientName);
         dish.getAllergenRecord().addAllerginLst().setAllerginName(allerginName);
        
         populateTable();

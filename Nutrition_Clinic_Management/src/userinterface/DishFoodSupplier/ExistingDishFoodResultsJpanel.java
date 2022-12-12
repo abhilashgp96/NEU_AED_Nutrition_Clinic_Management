@@ -140,7 +140,9 @@ public class ExistingDishFoodResultsJpanel extends javax.swing.JPanel {
         jLabel1.setText("DishFood Name");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(177, 186, 210, -1));
 
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
         backBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("BACK");
         backBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         backBtn.addActionListener(new java.awt.event.ActionListener() {

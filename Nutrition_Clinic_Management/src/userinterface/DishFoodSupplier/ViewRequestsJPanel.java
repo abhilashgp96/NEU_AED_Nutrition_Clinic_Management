@@ -125,7 +125,7 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
         jLabel1.setText("View Requests");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 50, 360, 70));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-huion-100.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-huion-100.png"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 40, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

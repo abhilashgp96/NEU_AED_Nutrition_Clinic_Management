@@ -17,7 +17,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author kasai
+ * @author abhilashgp
  */
 public class ManageEnterpriseJPanel extends javax.swing.JPanel {
 
@@ -154,7 +154,7 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         jLabel6.setFont(new java.awt.Font("Nirmala UI", 1, 48)); // NOI18N
         jLabel6.setText("Manage Enterprise ");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-small-business-100.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-small-business-100.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

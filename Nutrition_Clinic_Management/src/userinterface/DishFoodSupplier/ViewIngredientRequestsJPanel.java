@@ -233,7 +233,7 @@ public class ViewIngredientRequestsJPanel extends javax.swing.JPanel {
          JOptionPane.showMessageDialog(null,"Ingredient Name is empty");
             return;   
         }
-        m.setChemName(IngredientNameTextField.getText());
+        m.setIngriName(IngredientNameTextField.getText());
         try
         {
         int availableQuantity= Integer.parseInt(availQuantityTextField.getText());
@@ -341,7 +341,7 @@ public class ViewIngredientRequestsJPanel extends javax.swing.JPanel {
                     IngredientWorkRequest request=new IngredientWorkRequest();
 
                     mi.setReorderStatus("Y");
-                    request.setIngredientName(mi.getIngName());
+                    request.setIngredientName(mi.getIngriName());
                     request.setQuantity(mi.getReqdQuantity());
                     request.setSender(userAccount);
 
@@ -350,7 +350,7 @@ public class ViewIngredientRequestsJPanel extends javax.swing.JPanel {
                         System.out.println("***** Organization Name:" +enterprise.getOrgName());
                         for(Organization organization:enterprise.getOrganizationDirectory().getOrganizationLst()){
                             System.out.println("***** Organization Name:" +organization.getOrgName());
-                            if(organization.getOrgName().equals("Ingredient Organization")){
+                            if(organization.getOrgName().equals("Ingredient supplier Organization")){
                                 System.out.println("True");
 
                                 System.out.println("***** organization Name"+organization.getOrgName());

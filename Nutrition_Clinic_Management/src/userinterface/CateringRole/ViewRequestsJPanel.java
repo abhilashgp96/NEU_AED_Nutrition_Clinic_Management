@@ -87,7 +87,6 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
         backBtn = new javax.swing.JButton();
         refreshBtn = new javax.swing.JButton();
         reqDishLbl = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(204, 204, 204));
@@ -110,12 +109,14 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        dishFoodRequestsTable.setRowHeight(25);
+        dishFoodRequestsTable.setRowHeight(28);
         jScrollPane.setViewportView(dishFoodRequestsTable);
 
-        add(jScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(132, 208, 1045, 277));
+        add(jScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(7, 208, 1410, 277));
 
-        backBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
+        backBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText(" BACK");
         backBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -125,7 +126,9 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 590, 140, -1));
 
-        refreshBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        refreshBtn.setBackground(new java.awt.Color(0, 0, 0));
+        refreshBtn.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
+        refreshBtn.setForeground(new java.awt.Color(255, 255, 255));
         refreshBtn.setText("REFRESH");
         refreshBtn.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         refreshBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -138,9 +141,6 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
         reqDishLbl.setFont(new java.awt.Font("Nirmala UI", 1, 48)); // NOI18N
         reqDishLbl.setText("Requested Dish Details");
         add(reqDishLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 40, -1, -1));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/MedicineRequest.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 50, -1, 110));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/icons8-dish-85 (1).png"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 20, 110, 90));
@@ -166,7 +166,6 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton backBtn;
     private javax.swing.JTable dishFoodRequestsTable;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane;
     private javax.swing.JButton refreshBtn;

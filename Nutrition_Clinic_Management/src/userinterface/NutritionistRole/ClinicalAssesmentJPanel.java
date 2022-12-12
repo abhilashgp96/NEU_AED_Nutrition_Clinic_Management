@@ -47,24 +47,27 @@ public class ClinicalAssesmentJPanel extends javax.swing.JPanel {
         statusUpdate = new javax.swing.JButton();
         sexcomboBox = new javax.swing.JComboBox<>();
         patientTxtField = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 204));
+        setBackground(new java.awt.Color(230, 224, 224));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         LabTestLbl.setFont(new java.awt.Font("Nirmala UI", 1, 48)); // NOI18N
         LabTestLbl.setText("Clinical Trial Status");
-        add(LabTestLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 60, -1, -1));
+        add(LabTestLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, -1, -1));
 
-        patientLbl.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        patientLbl.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         patientLbl.setText("Patient Name");
         add(patientLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 210, -1, -1));
 
-        patientLbl1.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        patientLbl1.setFont(new java.awt.Font("Nirmala UI", 1, 24)); // NOI18N
         patientLbl1.setText("Status");
         patientLbl1.setToolTipText("");
         add(patientLbl1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 300, -1, -1));
 
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
         backBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,6 +90,9 @@ public class ClinicalAssesmentJPanel extends javax.swing.JPanel {
 
         patientTxtField.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
         add(patientTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 210, 140, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-hospital-96.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 50, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void statusUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_statusUpdateActionPerformed
@@ -121,6 +127,7 @@ public class ClinicalAssesmentJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel LabTestLbl;
     private javax.swing.JButton backBtn;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel patientLbl;
     private javax.swing.JLabel patientLbl1;
     private javax.swing.JTextField patientTxtField;

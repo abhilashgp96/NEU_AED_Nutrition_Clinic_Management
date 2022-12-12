@@ -49,7 +49,7 @@ public class IngredientProcessRequestJPanel extends javax.swing.JPanel {
         dateTxt = new javax.swing.JTextField();
         dateFld = new com.toedter.calendar.JDateChooser();
 
-        setBackground(new java.awt.Color(204, 204, 204));
+        setBackground(new java.awt.Color(230, 224, 224));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         processlbl.setFont(new java.awt.Font("Nirmala UI", 1, 36)); // NOI18N
@@ -60,7 +60,9 @@ public class IngredientProcessRequestJPanel extends javax.swing.JPanel {
         datedeliveryBtn.setText("Select Date of Delivery");
         add(datedeliveryBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 200, -1, -1));
 
+        backBtn.setBackground(new java.awt.Color(0, 0, 0));
         backBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setText("Back");
         backBtn.setToolTipText("");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -70,7 +72,9 @@ public class IngredientProcessRequestJPanel extends javax.swing.JPanel {
         });
         add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 350, 100, -1));
 
+        updateBtn.setBackground(new java.awt.Color(0, 0, 0));
         updateBtn.setFont(new java.awt.Font("Nirmala UI", 0, 24)); // NOI18N
+        updateBtn.setForeground(new java.awt.Color(255, 255, 255));
         updateBtn.setText("update");
         updateBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

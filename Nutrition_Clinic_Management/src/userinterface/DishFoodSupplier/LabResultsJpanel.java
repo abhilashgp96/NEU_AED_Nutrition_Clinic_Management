@@ -132,7 +132,7 @@ public class LabResultsJpanel extends javax.swing.JPanel {
         jLabel1.setText("Lab Results");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, -1, 53));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-lab-coat-100.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-lab-coat-100.png"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 30, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 

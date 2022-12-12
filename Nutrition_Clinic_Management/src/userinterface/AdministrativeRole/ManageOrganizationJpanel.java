@@ -21,7 +21,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author vgout
+ * @author abhilashgp
  */
 public class ManageOrganizationJpanel extends javax.swing.JPanel {
 
@@ -175,7 +175,7 @@ public class ManageOrganizationJpanel extends javax.swing.JPanel {
         });
         add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 570, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\Pictures\\Images\\icons8-organization-100.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-organization-100.png"))); // NOI18N
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 60, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
