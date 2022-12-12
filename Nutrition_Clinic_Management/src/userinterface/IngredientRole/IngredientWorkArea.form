@@ -60,6 +60,7 @@
                 <Column editable="true" title="Delivery Time" type="java.lang.Object"/>
               </Table>
             </Property>
+            <Property name="rowHeight" type="int" value="26"/>
           </Properties>
         </Component>
       </SubComponents>

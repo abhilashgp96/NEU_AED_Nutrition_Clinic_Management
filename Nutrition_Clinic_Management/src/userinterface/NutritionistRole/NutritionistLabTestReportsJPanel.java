@@ -104,6 +104,7 @@ public class NutritionistLabTestReportsJPanel extends javax.swing.JPanel {
                 return types [columnIndex];
             }
         });
+        allerginTbl.setRowHeight(26);
         jScrollPane1.setViewportView(allerginTbl);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 280, -1, 240));

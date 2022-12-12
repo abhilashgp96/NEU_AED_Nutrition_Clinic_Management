@@ -198,6 +198,7 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
                 return types [columnIndex];
             }
         });
+        nutritionistRequestTbl.setRowHeight(26);
         jScrollPane1.setViewportView(nutritionistRequestTbl);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 180, 620, 250));
