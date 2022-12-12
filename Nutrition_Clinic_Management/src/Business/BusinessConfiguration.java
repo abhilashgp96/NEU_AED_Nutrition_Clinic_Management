@@ -1,8 +1,8 @@
 package Business;
 
-import static Business.DataGenerator.InitMedicineName;
+import static Business.DataGenerator.InitDishName;
 import static Business.DataGenerator.InitOrgName;
-import static Business.DataGenerator.InitdiseaseName;
+import static Business.DataGenerator.InitDeficiencyName;
 import Business.Employee.Employee;
 import Business.Role.SystemAdminRole;
 import Business.UserAccount.UserAccount;
@@ -27,7 +27,11 @@ public class BusinessConfiguration {
         Employee employee = system.getEmpDirectory().createNewEmployee("Nutrition");
         
         UserAccount ua = system.getUserAccountDirectory().createUserAccount("sysadmin", "sysadmin", employee, new SystemAdminRole());
-  
+        
+        InitDishName();
+        InitOrgName();
+        InitDeficiencyName();
+        
         return system;
     }
     

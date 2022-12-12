@@ -17,15 +17,15 @@ import java.util.ArrayList;
 
 /**
  *
- * @author abhilashgp
+ * @author MyPC1
  */
 public class Environment extends Organization{
     
     private static Environment business;
     private ArrayList<Network> networkLst;
-    private IngredientDirectory chemicalLst;
+    private IngredientDirectory ingredientLst;
     private DishDirectory drugLst;
-    private AllerginRecord geneLst;
+    private AllerginRecord allerginLst;
     public static Environment getInstance(){
         if(business==null){
             business=new Environment();
@@ -48,8 +48,8 @@ public class Environment extends Organization{
         super(null);
         networkLst=new ArrayList<Network>();
         drugLst = new DishDirectory();
-        chemicalLst = new IngredientDirectory();
-        geneLst = new AllerginRecord();
+        ingredientLst = new IngredientDirectory();
+        allerginLst = new AllerginRecord();
     }
 
     public ArrayList<Network> getNetworkLst() {
@@ -78,21 +78,21 @@ public class Environment extends Organization{
         this.drugLst = drugLst;
     }
 
-    public IngredientDirectory getChemicalLst() {
-        return chemicalLst;
+    public IngredientDirectory getIngridientLst() {
+        return ingredientLst;
     }
 
-    public void setChemicalLst(IngredientDirectory chemicalLst) {
-        this.chemicalLst = chemicalLst;
+    public void setIngredientLst(IngredientDirectory IngredientLst) {
+        this.ingredientLst = ingredientLst;
     }
     
 
-    public AllerginRecord getGeneLst() {
-        return geneLst;
+    public AllerginRecord getAllerginLst() {
+        return allerginLst;
     }
 
-    public void setGeneLst(AllerginRecord geneLst) {
-        this.geneLst = geneLst;
+    public void setAllerginLst(AllerginRecord allerginLst) {
+        this.allerginLst = allerginLst;
     }
     
   

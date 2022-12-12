@@ -17,55 +17,55 @@ import java.util.Random;
 public class DataGenerator {
     
     private static Random rand = new Random();
-    private static String[] network = {"Boston", "California", "Dallas"};
+    private static String[] network = {"Boston", "New York", "Connecticut"};
 
     private static String[] beginning = {"kr", "ca", "Ra", "Ho", "Lj", "pg", "kre", "lop", "mat"};
     private static String[] middle = {"air", "cal", "Pla", "ghdo", "kal", "hkg", "pokre", "lojop", "mploat"};
 
-    private static String[] hospitalName = {"Mass general","New England Baptist Hospital","Harvard PMR","Boston Lying In Hospital"};
+    private static String[] clinicName = {"Healthy Foods","Go Green Clinic","Health First","Wellness Centre","Food World"};
 
-    private static String[] organisationName = {"Doctor", "Lab", "Pharmacy", "Drug", "Chemical"};
+    private static String[] organisationName = {"Nutritionist", "FDA Lab", "Caterers", "Food Supply Market", "Ingridient Market"};
 
-    private static String[] medicineName = {"Galafold", "Onpattro", "Revcovi", "Tegsedi", "Haegarda", "Brineura", "Mepsevii", "Spinraza"};
+    private static String[] DishName = {"Steak", "kombu", "Asparagus", "SteamedMussels", "ArugulaSalad", "TurkeyPicadillo", "WhiteBeanTostada", "parsleysalad"};
     
-    private static String[] diseaseName = {"Achondroplasia","Marfan syndrome","Cystic fibrosis","Tay-Sachs disease","Haemophilia","Mosaicism","Down syndrome","Turner syndrome"};
+    private static String[] deficiencyName = {"Iron","Iodine","VitaminD","VitaminB12","Calcium","VitaminA","Magnesium","VitaminK"};
     
-    private static String[] geneName = {"A2M","BAX","CAT","DLL3","EGF","FOS","GH1","HSF1","IGF1","LEP"};
+    private static String[] allerginName = {"Pollen","Lactose","Anaphylaxis","Casein","Gluten","Parvalbumin","Sesamumindicum","Glycinemax","ImmunoglobulinE"};
     
     public static String generateNetwork() {
         return network[rand.nextInt(network.length)];
     }
     
-     public static String generateHospitalName() {
-        return hospitalName[rand.nextInt(hospitalName.length)];
+     public static String generateClinicName() {
+        return clinicName[rand.nextInt(clinicName.length)];
     }
      
       public static String generationOrganisationName() {
         return organisationName[rand.nextInt(organisationName.length)];
     }
       
-    public static String generateMedicine() {
+    public static String generateDish() {
 
-        return medicineName[rand.nextInt(medicineName.length)];
+        return DishName[rand.nextInt(DishName.length)];
 
     }
     
-     public static String generateDisease() {
+     public static String generateDeficiency() {
 
-        return diseaseName[rand.nextInt(diseaseName.length)];
-
-    }
-     
-    public static String generateGenes() {
-
-        return geneName[rand.nextInt(geneName.length)];
+        return deficiencyName[rand.nextInt(deficiencyName.length)];
 
     }
      
-     public static Prescription InitMedicineName() {
+    public static String generateAllergin() {
+
+        return allerginName[rand.nextInt(allerginName.length)];
+
+    }
+     
+     public static Prescription InitDishName() {
 
         Prescription pres = new Prescription();
-        pres.setDishFoodName(generateMedicine());
+        pres.setDishFoodName(generateDish());
         pres.setNetName(generateNetwork());
         
         return pres;
@@ -81,11 +81,11 @@ public class DataGenerator {
 
     }
     
-     public static Prescription InitdiseaseName() {
+     public static Prescription InitDeficiencyName() {
 
         Prescription pres = new Prescription();
         pres.setNetName(generateNetwork());
-        pres.setPrognosis(generateDisease());
+        pres.setPrognosis(generateDeficiency());
         return pres;
 
     }

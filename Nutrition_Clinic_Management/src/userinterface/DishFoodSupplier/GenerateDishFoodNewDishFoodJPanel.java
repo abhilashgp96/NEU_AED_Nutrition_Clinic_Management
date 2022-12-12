@@ -86,7 +86,7 @@ public class GenerateDishFoodNewDishFoodJPanel extends javax.swing.JPanel {
 
             },
             new String [] {
-                "Allergin", "Chemical Compound"
+                "Allergin", "Ingredient Name"
             }
         ) {
             Class[] types = new Class [] {
