@@ -21,7 +21,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author vgout
+ * @author abhilashgp
  */
 public class ManageOrganizationJpanel extends javax.swing.JPanel {
 

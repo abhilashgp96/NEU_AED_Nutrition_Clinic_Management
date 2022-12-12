@@ -20,7 +20,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author vgout
+ * @author abhilashgp
  */
 public class ManageUserAccountJpanel extends javax.swing.JPanel {
     private JPanel container;
