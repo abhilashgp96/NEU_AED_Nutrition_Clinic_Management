@@ -155,6 +155,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
                 return types [columnIndex];
             }
         });
+        allerginTbl.setRowHeight(26);
         jScrollPane1.setViewportView(allerginTbl);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 240, 480, 140));

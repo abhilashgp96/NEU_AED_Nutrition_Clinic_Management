@@ -106,6 +106,7 @@
                 <Column editable="true" title="New Drug" type="java.lang.String"/>
               </Table>
             </Property>
+            <Property name="rowHeight" type="int" value="26"/>
           </Properties>
         </Component>
       </SubComponents>

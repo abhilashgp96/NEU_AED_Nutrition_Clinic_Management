@@ -143,6 +143,7 @@
                 <Column editable="true" title="Allergin" type="java.lang.String"/>
               </Table>
             </Property>
+            <Property name="rowHeight" type="int" value="26"/>
           </Properties>
         </Component>
       </SubComponents>

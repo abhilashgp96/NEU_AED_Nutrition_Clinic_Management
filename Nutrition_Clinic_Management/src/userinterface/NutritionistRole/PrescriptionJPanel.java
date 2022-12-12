@@ -203,6 +203,7 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
                 "Suggested Dish Name", "Total Quantity", "Reciever"
             }
         ));
+        prescriptionJTable.setRowHeight(26);
         jScrollPane1.setViewportView(prescriptionJTable);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(192, 427, 650, 210));

@@ -81,7 +81,6 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
         serialNumTxtField.setEditable(false);
         serialNumTxtField.setBackground(new java.awt.Color(255, 255, 255));
         serialNumTxtField.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
-        serialNumTxtField.setForeground(new java.awt.Color(255, 255, 255));
         serialNumTxtField.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(serialNumTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(489, 283, 207, -1));
 
@@ -92,7 +91,6 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
         DishFoodNameTxtField.setEditable(false);
         DishFoodNameTxtField.setBackground(new java.awt.Color(255, 255, 255));
         DishFoodNameTxtField.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
-        DishFoodNameTxtField.setForeground(new java.awt.Color(255, 255, 255));
         DishFoodNameTxtField.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(DishFoodNameTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(489, 383, 207, -1));
 
@@ -103,7 +101,6 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
         availQuantityTxtField.setEditable(false);
         availQuantityTxtField.setBackground(new java.awt.Color(255, 255, 255));
         availQuantityTxtField.setFont(new java.awt.Font("Nirmala UI", 0, 18)); // NOI18N
-        availQuantityTxtField.setForeground(new java.awt.Color(255, 255, 255));
         availQuantityTxtField.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         availQuantityTxtField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
