@@ -350,7 +350,7 @@ public class ViewIngredientRequestsJPanel extends javax.swing.JPanel {
                         System.out.println("***** Organization Name:" +enterprise.getOrgName());
                         for(Organization organization:enterprise.getOrganizationDirectory().getOrganizationLst()){
                             System.out.println("***** Organization Name:" +organization.getOrgName());
-                            if(organization.getOrgName().equals("Ingredient Organization")){
+                            if(organization.getOrgName().equals("Ingredient supplier Organization")){
                                 System.out.println("True");
 
                                 System.out.println("***** organization Name"+organization.getOrgName());
