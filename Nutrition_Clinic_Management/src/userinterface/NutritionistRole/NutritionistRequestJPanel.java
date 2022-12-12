@@ -423,8 +423,8 @@ public class NutritionistRequestJPanel extends javax.swing.JPanel {
            row[1] = ((LabTestWorkRequest) request).getPatient().getAge();
            row[2] = ((LabTestWorkRequest) request).getPatient().getSex();
            row[3] = request.getMessage();
-           row[0] = request.getReceiver();
-           row[0] = request.getStatus();
+           row[4] = request.getReceiver();
+           row[5] = request.getStatus();
            String result = ((LabTestWorkRequest) request).getPatient().getNewDish();
            if(request.getReceiver()==null||request.getReceiver().equals("Processing")){
            
